@@ -14,7 +14,7 @@ import java.util.LinkedHashMap;
 
 public class dropboxMethods {
     public static DbxClientV2 getClient() {
-        String ACCESS_TOKEN = "6AcJpbPw-CQAAAAAAAAAAVHE667g8KxLxql8bSpjcji9HP8ePexKysMZcyS8i8xt";
+        String ACCESS_TOKEN = "a token i removed";
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         return new DbxClientV2(config, ACCESS_TOKEN);
     }
